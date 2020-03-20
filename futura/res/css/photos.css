@@ -16,11 +16,13 @@
   justify-content: center;
   flex-wrap: wrap;
   margin-top: 20em;
+  margin-left: 15em;
+  margin-right: 15em;
 }
 
 .row img
 {
-  width: 22%;
+  width: 30%;
   vertical-align: middle;
   padding: 10px;
   object-fit: contain;  
