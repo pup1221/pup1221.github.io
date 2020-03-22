@@ -105,8 +105,7 @@ div.topbanner
 
 div.topleftbanner
 {
-  margin-left: 5%;
-  margin-top: 4%;
+  margin-left: 5%;  
   letter-spacing: 0.05em;
   font-weight: 400;
 }
@@ -125,13 +124,13 @@ div.topleftbanner
 
 div.topleft
 {
-  display: inline;
-  float: left;
+  display: flex;
+  justify-content: left;
+  align-items: center;
   background-color: var(--main-bright-colour);
   height: 100px;  
   width: 30%;
-  min-width: 300px;  
-  clear: left;  
+  min-width: 300px;    
 }
 
 div.topright
