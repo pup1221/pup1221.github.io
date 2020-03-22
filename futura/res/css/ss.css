@@ -38,7 +38,7 @@ ul #navbar
 
 nav
 {
-  margin-top: 30px;	
+  
   white-space: nowrap;
 }
 
@@ -136,13 +136,13 @@ div.topleft
 
 div.topright
 {
-  display: inline-block;  
+  display: flex;  
+  justify-content: right;
+  align-items: center;
   background-color: var(--main-dark-colour);
   height: 100px;  
   width: 70%;  
-  min-width: 800px;    
-  text-align: end;  
-  clear: right;  
+  min-width: 800px;      
 }
 
 div.middle
@@ -202,7 +202,10 @@ div.bottom_banner
   grid-template-areas: "bottom_banner_left bottom_banner_right";
   background-color: var(--main-dark-colour);
   color: var(--main-bright-colour);  
-  height: 4em;  
+  height: 5em;  
+  border-top-style: solid;
+  border-top-width: 0.4em;
+  border-top-color: #c7c7c7;    
 }
 
 .main_company_ethos
