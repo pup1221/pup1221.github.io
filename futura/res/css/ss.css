@@ -37,8 +37,7 @@ ul #navbar
 }
 
 nav
-{
-  margin-top: 30px;	
+{  
   white-space: nowrap;
 }
 
@@ -136,11 +135,13 @@ div.topleft
 
 div.topright
 {
-  display: inline-block;  
+  display: inline-flex;  
   background-color: var(--main-dark-colour);
   height: 100px;  
   width: 70%;  
   min-width: 800px;    
+  justify-content: right;
+  align-items: center;
   text-align: end;  
   clear: right;  
 }
