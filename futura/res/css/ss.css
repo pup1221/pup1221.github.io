@@ -177,7 +177,9 @@ div.bottom_left
 div.bottom_right
 {
   width: 60%;
-  text-align: center;
+  display: inline-flex;
+  justify-content: center;
+  align-items: middle;
   background-color: var(--bottom-right-background-colour);
 }
 
